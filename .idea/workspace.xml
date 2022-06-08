@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c7faf9d-2d8c-4815-a3cf-f81069c2fbac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ch3/OperatorEx1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch3/OperatorEx2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch3/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch4/Switch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch4/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_bible/ch2/Casting.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_bible/ch2/Casting.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,20 +37,7 @@
     "settings.editor.selected.configurable": "preferences.sourceCode.Java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Switch">
-    <configuration name="Casting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch2.Casting" />
-      <module name="java_bible" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ch2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ch4.Test">
     <configuration name="OperatorEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ch3.OperatorEx1" />
       <module name="java_bible" />
@@ -107,13 +90,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ch4.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch4.Test" />
+      <module name="java_bible" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ch4.Test" />
         <item itemvalue="Application.Switch" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.OperatorEx2" />
         <item itemvalue="Application.OperatorEx1" />
-        <item itemvalue="Application.Casting" />
       </list>
     </recent_temporary>
   </component>
@@ -131,7 +127,7 @@
       <workItem from="1654132899584" duration="603000" />
       <workItem from="1654133918921" duration="6000" />
       <workItem from="1654233159339" duration="47000" />
-      <workItem from="1654583059492" duration="5512000" />
+      <workItem from="1654583059492" duration="8540000" />
     </task>
     <servers />
   </component>
