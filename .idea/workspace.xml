@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c7faf9d-2d8c-4815-a3cf-f81069c2fbac" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ch5/ArrayEx1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch4/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch4/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_bible/ch4/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_bible/ch4/Test.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,17 +34,17 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/user/Desktop/java_bible",
+    "last_opened_file_path": "C:/Users/user/Desktop/inflearn/SpringRoadmap/springcore",
     "settings.editor.selected.configurable": "preferences.sourceCode.Java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ch4.Test">
-    <configuration name="OperatorEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch3.OperatorEx1" />
+  <component name="RunManager" selected="Application.ArrayEx1">
+    <configuration name="ArrayEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch5.ArrayEx1" />
       <module name="java_bible" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch3.*" />
+          <option name="PATTERN" value="ch5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,11 +106,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayEx1" />
         <item itemvalue="Application.ch4.Test" />
         <item itemvalue="Application.Switch" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.OperatorEx2" />
-        <item itemvalue="Application.OperatorEx1" />
       </list>
     </recent_temporary>
   </component>
@@ -129,7 +130,10 @@
       <workItem from="1654233159339" duration="47000" />
       <workItem from="1654583059492" duration="8540000" />
       <workItem from="1654697495815" duration="604000" />
-      <workItem from="1654737576776" duration="13241000" />
+      <workItem from="1654737576776" duration="14459000" />
+      <workItem from="1654757812122" duration="563000" />
+      <workItem from="1654758564094" duration="278000" />
+      <workItem from="1654758853901" duration="14000" />
     </task>
     <servers />
   </component>
