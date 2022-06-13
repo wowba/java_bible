@@ -1,5 +1,7 @@
 package ch5;
 
+import java.util.Arrays;
+
 public class ArrayEx1 {
 	public static void main(String[] args) {
 		int[] score = new int[5];
@@ -11,10 +13,14 @@ public class ArrayEx1 {
 		score[3] = 80;
 		score[4] = 90;
 
-		for (int i = 0; i < score.length; i++  ) {
-
-			System.out.printf("score[%d]:%d%n", i, score[i]);
-
+		for (int key : score) {
+			System.out.printf("score[%d]\n" , key);
 		}
+
+		int[] arr = {1, 2, 3, 4, 5};
+		for (int i : arr) {
+			System.out.println(i);
+		}
+		System.out.println(Arrays.toString(arr));
 	}
 }
