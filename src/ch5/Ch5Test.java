@@ -1,12 +1,19 @@
 package ch5;
 
+import java.util.Scanner;
+
 public class Ch5Test {
 	public static void main(String[] args) {
 		test5_3();
 		test5_4();
 		test5_5();
 		test5_6();
-		test5_7(args);
+		test5_8();
+		test5_9();
+		test5_10();
+		test5_11();
+		// test5_12();
+		test5_13();
 	}
 
 	public static void test5_3() {
@@ -85,44 +92,158 @@ public class Ch5Test {
 		}
 	}
 
-	public static void test5_7(String args[]) {
-		System.out.println("보유한 동전의 개수로 거스름돈을 지불할 수 없으면, 지불 불가 출력하기." 
-			+ "충분하다면 지불한 뒤 남은 동전의 개수 출력하기");
-
-		if(args.length!=1) {
-			System.out.println("USAGE: java Exercise5_7 3120");
-			System.exit(0);
+	public static void test5_8() {
+		System.out.println("배열의 숫자를 읽고 그 수만큼 * 출력하기");
+		int[] answer = { 1,4,4,3,1,4,4,2,1,3,2 };
+		for(int i=0; i < answer.length;i++) {
+			System.out.print(answer[i]);
+			for (int j = 0; j < answer[i]; j++) {
+				System.out.print("*");
+			}
+			System.out.println();
 		}
+		System.out.println();
+	}
 
-		// . . 문자열을 숫자로 변환한다 입력한 값이 숫자가 아닐 경우 예외가 발생한다
-		int money = Integer.parseInt(args[0]);
+	public static void test5_9() {
+		System.out.println("주어진 배열을 시계방향으로 90도 회전시키는 프로그램 만들기");
+		char[][] star = {
+			{'*','*',' ',' ',' '},
+			{'*','*',' ',' ',' '},
+			{'*','*','*','*','*'},
+			{'*','*','*','*','*'}
+		};
+		char[][] result = new char[star[0].length][star.length];
+		for(int i=0; i < star.length;i++) {
+			for(int j=0; j < star[i].length;j++) {
+				System.out.print(star[i][j]);
+			}
+			System.out.println();
+		}
+		System.out.println();
+		for(int i=0; i < star.length;i++) {
+			for(int j=0; j < star[i].length;j++) {
+				/* (1) . 알맞은 코드를 넣어 완성하시오 */
+				int x = j;
+				int y = star.length-1-i;
+				result[x][y]=star[i][j]; // (i,j) (x,y)
+			}
+		}
+		for(int i=0; i < result.length;i++) {
+			for(int j=0; j < result[i].length;j++) {
+				System.out.print(result[i][j]);
+			}
+			System.out.println();
+		}
+		System.out.println();
+	}
 
-		System.out.println("money="+money);
+	public static void test5_10() {
+		System.out.println("주어진 src를 암호화하기");
+		char[] abcCode =
+			{ '`','~','!','@','#','$','%','^','&','*',
+				'(',')','-','_','+','=','|','[',']','{',
+				'}',';',':',',','.','/'};
+		// 0 1 2 3 4 5 6 7 8 9
+		char[] numCode = {'q','w','e','r','t','y','u','i','o','p'};
+		String src = "abc123";
+		String result = "";
+		// 하나씩 읽어서 변환 후 result에 저장
+		for(int i=0; i < src.length();i++) {
+			char ch = src.charAt(i);
+			/* (1) . 알맞은 코드를 넣어 완성하시오. */
 
-		int[] coinUnit = {500, 100, 50, 10 }; // 동전의 단위
-		int[] coin = {5, 5, 5, 5}; // 단위별 동전의 개수
+			if (Character.isAlphabetic(ch)) {
+				result += abcCode[ch - 'a'];
+			}
 
-		for(int i=0;i<coinUnit.length;i++) {
-			int coinNum = 0;
-			/* (1) 아래의 로직에 맞게 코드를 작성하시오
-			1. 금액을 동전단위로 나눠서 필요한 동전의 개수 를 구한다
-			2. 배열에서 동전을 뺀다
-			(만일 충분한 동전이 없다면 배열에 있는 만큼만 뺀다)
-			3. 금액에서 동전의 개수와 동전단위를 곱한 값을 뺀다
+			if (Character.isDigit(ch)) {
+				result += numCode[ch - '0'];
+			}
+		}
+		System.out.println("src:"+src);
+		System.out.println("result:"+result);
+		System.out.println();
+	}
+
+	public static void test5_11() {
+		System.out.println("주어진 배열보다 가로세로 1씩 더 큰 배열을 생성하고, 행 및 열의 총합을 추가하기.");
+		int[][] score = {
+			{100, 100, 100}
+			, {20, 20, 20}
+			, {30, 30, 30}
+			, {40, 40, 40}
+			, {50, 50, 50}
+		};
+		int[][] result = new int[score.length+1][score[0].length+1];
+		for(int i=0; i < score.length;i++) {
+			for(int j=0; j < score[i].length;j++) {
+				/* (1) . 알맞은 코드를 넣어 완성하시오 */
+				result[i][j] = score[i][j];
+				result[i][result[i].length - 1] += score[i][j];
+				result[result.length - 1][j] += score[i][j];
+
+				if (i == score.length - 1 && j == score[i].length - 1) {
+					for (int k = 0; k < result[i + 1].length - 1; k++) {
+						result[i + 1][j + 1] += result[i + 1][k];
+					}
+				}
+			}
+		}
+		for(int i=0; i < result.length;i++) {
+			for(int j=0; j < result[i].length;j++) {
+				System.out.printf("%4d",result[i][j]);
+			}
+			System.out.println();
+		}
+		System.out.println();
+	}
+
+	public static void test5_12() {
+		System.out.println("단어를 섞고 원래 단어를 맞추는 프로그램 만들기");
+		
+		String[] words = { "television", "computer", "mouse", "phone" };
+		Scanner scanner = new Scanner(System.in);
+		for (int i = 0; i < words.length; i++) {
+			char[] question = words[i].toCharArray(); // String을 char[]로 변환
+			/*
+			(1) 알맞은 코드를 넣어 완성하시오
+			char배열 question에 담긴 문자의 위치를 임의로 바꾼다
 			*/
-			int cnt = money / coinUnit[i];
-			System.out.println(cnt);
+			for (int j = 0; j < question.length; j++) {
+				int ranNum = (int)(Math.random() * question.length);
+				char tmp = ' ';
+				tmp = question[ranNum];
+				question[ranNum] = question[j];
+				question[j] = tmp;
+			}
 
-			System.out.println(coinUnit[i]+"원 : "+coinNum);
+			System.out.printf("Q%d. %s의 정답을 입력하세요 .>",
+				i + 1, new String(question));
+			String answer = scanner.nextLine();
+			// trim() answer , equals word[i] 으로 의 좌우 공백을 제거한 후 로 와 비교
+			if (words[i].equals(answer.trim()))
+				System.out.printf("맞았습니다 .%n%n");
+			else
+				System.out.printf("틀렸습니다 .%n%n");
 		}
-		if(money > 0) {
-			System.out.println(" 거스름돈이 부족합니다.");
-			System.exit(0); // . 프로그램을 종료한다
-		}
-		System.out.println("=남은 동전의 개수 =");
+	}
 
-		for(int i=0;i<coinUnit.length;i++) {
-			System.out.println(coinUnit[i]+"원 :"+coin[i]);
+	public static void test5_13() {
+		System.out.println("12번 문제 변화주기");
+
+		String[] words = { "chair", "computer", "integer"};
+		String[] answers = { "의자", "컴퓨터", "정수" };
+		Scanner scanner = new Scanner(System.in);
+		for (int i = 0; i < words.length; i++) {
+			System.out.printf("Q%d. %s의 뜻은?>",
+				i + 1, words[i]);
+			String answer = scanner.nextLine();
+			// trim() answer , equals word[i] 으로 의 좌우 공백을 제거한 후 로 와 비교
+			if (answers[i].equals(answer.trim()))
+				System.out.printf("맞았습니다.%n%n");
+			else
+				System.out.printf("틀렸습니다. 정답은 %s 입니다.%n%n", answers[i]);
 		}
 	}
 }

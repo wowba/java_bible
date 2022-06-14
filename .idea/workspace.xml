@@ -2,26 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c7faf9d-2d8c-4815-a3cf-f81069c2fbac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch5/ArrayEx10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch5/ArrayEx11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch5/ArrayEx12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch5/ArrayEx13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch5/ArrayEx14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch5/ArrayEx18.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch5/ArrayEx2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch5/ArrayEx3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch5/ArrayEx4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch5/ArrayEx5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch5/ArrayEx6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch5/ArrayEx7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch5/ArrayEx8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch5/ArrayEx9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch5/Ch5Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch5/MultiArrEx1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch5/Test5_7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch6/CardTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch6/MyMathTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch6/TvTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch6/TvTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch6/TvTest3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch6/TvTest4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_bible/ch5/ArrayEx1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_bible/ch5/ArrayEx1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch5/ArrayEx1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch5/ArrayEx1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_bible/ch5/Ch5Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_bible/ch5/Ch5Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch5/Ch5Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch5/Ch5Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,24 +36,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/user/Desktop/inflearn/SpringRoadmap/springstart",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.sourceCode.Java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Desktop/java_bible&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Ch5Test">
-    <configuration name="ArrayEx13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch5.ArrayEx13" />
+}</component>
+  <component name="RunManager" selected="Application.MyMathTest">
+    <configuration name="CardTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch6.CardTest" />
       <module name="java_bible" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch5.*" />
+          <option name="PATTERN" value="ch6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,12 +61,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayEx14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch5.ArrayEx14" />
+    <configuration name="MyMathTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch6.MyMathTest" />
       <module name="java_bible" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch5.*" />
+          <option name="PATTERN" value="ch6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayEx18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch5.ArrayEx18" />
+    <configuration name="TvTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch6.TvTest2" />
       <module name="java_bible" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch5.*" />
+          <option name="PATTERN" value="ch6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ch5Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch5.Ch5Test" />
+    <configuration name="TvTest3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch6.TvTest3" />
       <module name="java_bible" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch5.*" />
+          <option name="PATTERN" value="ch6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiArrEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch5.MultiArrEx1" />
+    <configuration name="TvTest4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch6.TvTest4" />
       <module name="java_bible" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch5.*" />
+          <option name="PATTERN" value="ch6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,13 +113,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.MyMathTest" />
+      <item itemvalue="Application.CardTest" />
+      <item itemvalue="Application.TvTest2" />
+      <item itemvalue="Application.TvTest3" />
+      <item itemvalue="Application.TvTest4" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Ch5Test" />
-        <item itemvalue="Application.MultiArrEx1" />
-        <item itemvalue="Application.ArrayEx18" />
-        <item itemvalue="Application.ArrayEx14" />
-        <item itemvalue="Application.ArrayEx13" />
+        <item itemvalue="Application.MyMathTest" />
+        <item itemvalue="Application.CardTest" />
+        <item itemvalue="Application.TvTest4" />
+        <item itemvalue="Application.TvTest3" />
+        <item itemvalue="Application.TvTest2" />
       </list>
     </recent_temporary>
   </component>
@@ -156,6 +153,9 @@
       <workItem from="1655080561115" duration="16623000" />
       <workItem from="1655103643852" duration="352000" />
       <workItem from="1655105532519" duration="245000" />
+      <workItem from="1655126928365" duration="20000" />
+      <workItem from="1655167949714" duration="14423000" />
+      <workItem from="1655192650654" duration="325000" />
     </task>
     <servers />
   </component>
