@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c7faf9d-2d8c-4815-a3cf-f81069c2fbac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ch6test/Exercise6_20.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch6test/Exercise6_21.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch6test/Exercise6_22.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch6test/Exercise6_23.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch6test/Exercise6_24.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch7/Drawshape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch7/ExTv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch7/ImportTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch7/StaticImportTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch7/SuperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,18 +39,18 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/user/Desktop/inflearn/SpringRoadmap/springcore",
+    "last_opened_file_path": "C:/Users/user/Desktop/java_bible",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Exercise6_24">
-    <configuration name="Exercise6_20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch6test.Exercise6_20" />
+  <component name="RunManager" selected="Application.StaticImportTest">
+    <configuration name="ImportTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch7.ImportTest" />
       <module name="java_bible" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch6test.*" />
+          <option name="PATTERN" value="ch7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -57,12 +58,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercise6_21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch6test.Exercise6_21" />
+    <configuration name="StaticImportTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch7.StaticImportTest" />
       <module name="java_bible" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch6test.*" />
+          <option name="PATTERN" value="ch7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,12 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercise6_22" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch6test.Exercise6_22" />
+    <configuration name="SuperTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch7.SuperTest" />
       <module name="java_bible" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch6test.*" />
+          <option name="PATTERN" value="ch7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercise6_23" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch6test.Exercise6_23" />
+    <configuration name="ch7.CaptionTvTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch7.CaptionTvTest" />
       <module name="java_bible" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch6test.*" />
+          <option name="PATTERN" value="ch7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercise6_24" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch6test.Exercise6_24" />
+    <configuration name="ch7.Shape" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch7.Shape" />
       <module name="java_bible" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch6test.*" />
+          <option name="PATTERN" value="ch7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,19 +111,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Exercise6_20" />
-      <item itemvalue="Application.Exercise6_21" />
-      <item itemvalue="Application.Exercise6_22" />
-      <item itemvalue="Application.Exercise6_23" />
-      <item itemvalue="Application.Exercise6_24" />
+      <item itemvalue="Application.ImportTest" />
+      <item itemvalue="Application.StaticImportTest" />
+      <item itemvalue="Application.SuperTest" />
+      <item itemvalue="Application.ch7.CaptionTvTest" />
+      <item itemvalue="Application.ch7.Shape" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Exercise6_24" />
-        <item itemvalue="Application.Exercise6_23" />
-        <item itemvalue="Application.Exercise6_22" />
-        <item itemvalue="Application.Exercise6_21" />
-        <item itemvalue="Application.Exercise6_20" />
+        <item itemvalue="Application.StaticImportTest" />
+        <item itemvalue="Application.ImportTest" />
+        <item itemvalue="Application.SuperTest" />
+        <item itemvalue="Application.ch7.Shape" />
+        <item itemvalue="Application.ch7.CaptionTvTest" />
       </list>
     </recent_temporary>
   </component>
@@ -160,6 +161,8 @@
       <workItem from="1656297202474" duration="1303000" />
       <workItem from="1656298607428" duration="6607000" />
       <workItem from="1656309228417" duration="321000" />
+      <workItem from="1656377420124" duration="9301000" />
+      <workItem from="1656564543156" duration="1429000" />
     </task>
     <servers />
   </component>
