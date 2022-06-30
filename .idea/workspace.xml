@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c7faf9d-2d8c-4815-a3cf-f81069c2fbac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ch7/Drawshape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch7/ExTv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch7/ImportTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch7/StaticImportTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch7/SuperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch7/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch7/PolyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch7/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch7/StaticTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch7/TimeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,20 +32,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/user/Desktop/java_bible",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Desktop/java_bible&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.StaticImportTest">
-    <configuration name="ImportTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch7.ImportTest" />
+}</component>
+  <component name="RunManager" selected="Application.SingletonTest">
+    <configuration name="Card" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch7.Card" />
       <module name="java_bible" />
       <extension name="coverage">
         <pattern>
@@ -58,8 +57,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StaticImportTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch7.StaticImportTest" />
+    <configuration name="SingletonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch7.SingletonTest" />
       <module name="java_bible" />
       <extension name="coverage">
         <pattern>
@@ -71,8 +70,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SuperTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch7.SuperTest" />
+    <configuration name="StaticTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch7.StaticTest" />
       <module name="java_bible" />
       <extension name="coverage">
         <pattern>
@@ -84,8 +83,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ch7.CaptionTvTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch7.CaptionTvTest" />
+    <configuration name="TimeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch7.TimeTest" />
       <module name="java_bible" />
       <extension name="coverage">
         <pattern>
@@ -97,8 +96,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ch7.Shape" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch7.Shape" />
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch7.test" />
       <module name="java_bible" />
       <extension name="coverage">
         <pattern>
@@ -111,19 +110,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ImportTest" />
-      <item itemvalue="Application.StaticImportTest" />
-      <item itemvalue="Application.SuperTest" />
-      <item itemvalue="Application.ch7.CaptionTvTest" />
-      <item itemvalue="Application.ch7.Shape" />
+      <item itemvalue="Application.Card" />
+      <item itemvalue="Application.SingletonTest" />
+      <item itemvalue="Application.StaticTest" />
+      <item itemvalue="Application.TimeTest" />
+      <item itemvalue="Application.test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StaticImportTest" />
-        <item itemvalue="Application.ImportTest" />
-        <item itemvalue="Application.SuperTest" />
-        <item itemvalue="Application.ch7.Shape" />
-        <item itemvalue="Application.ch7.CaptionTvTest" />
+        <item itemvalue="Application.SingletonTest" />
+        <item itemvalue="Application.TimeTest" />
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.Card" />
+        <item itemvalue="Application.StaticTest" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +161,8 @@
       <workItem from="1656298607428" duration="6607000" />
       <workItem from="1656309228417" duration="321000" />
       <workItem from="1656377420124" duration="9301000" />
-      <workItem from="1656564543156" duration="1429000" />
+      <workItem from="1656564543156" duration="7794000" />
+      <workItem from="1656576190711" duration="2000" />
     </task>
     <servers />
   </component>
